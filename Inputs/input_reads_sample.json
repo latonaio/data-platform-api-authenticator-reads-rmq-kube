@@ -1,0 +1,59 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "AUTHENTICATOR",
+	"api_type": "reads",
+	"Authenticator": {
+		"UserID": "xxxxx.xxxx@latona.io",
+		"BusinessPartner": 1001,
+		"Password": "",
+		"Qos": "",
+		"IsEncrypt": null,
+		"Language": "JA",
+		"LastLoginDate": "",
+		"LastLoginTime": "",
+		"CreationDate": "",
+		"CreationTime": "",
+		"LastChangeDate": "",
+		"LastChangeTime": "",
+		"IsMarkedForDeletion": null,
+		"SMSAuth": {
+			"MobilePhoneNumber": "+81-80-XXXX-XXXX",
+			"AuthenticationCode": 123456,
+			"CreationDate": "",
+			"CreationTime": "",
+			"LastChangeDate": "",
+			"LastChangeTime": "",
+			"IsMarkedForDeletion": null
+		},
+		"GoogleAccountAuth": {
+			"EmailAddress": "test@latona.io",
+			"GoogleID": "XXXXXXXXXXXXXXX",
+			"AccessToken": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+			"CreationDate": "",
+			"CreationTime": "",
+			"LastChangeDate": "",
+			"LastChangeTime": "",
+			"IsMarkedForDeletion": null
+		},
+		"InstagramAuth": {
+			"EmailAddress": "test@latona.io",
+			"InstagramID": "XXXXXXXXXXXXXXX",
+			"AccessToken": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+			"CreationDate": "",
+			"CreationTime": "",
+			"LastChangeDate": "",
+			"LastChangeTime": "",
+			"IsMarkedForDeletion": null
+		}
+	},
+	"api_schema": "DPFMAuthenticatorReads",
+	"accepter": [
+		"SMSAuth"
+	]
+}

@@ -1,0 +1,53 @@
+{
+  "connection_key": "request",
+  "result": true,
+  "redis_key": "abcdefg",
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "api_status_code": 200,
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "business_partner": 1001,
+  "service_label": "EVENT",
+  "api_type": "reads",
+  "message": {
+    "Header": null,
+    "Partner": null,
+    "Address": [
+      {
+        "Event": 1,
+        "AddressID": 1,
+        "PostalCode": "517-0011",
+        "LocalSubRegion": "242110",
+        "LocalRegion": "24",
+        "Country": "JP",
+        "GlobalRegion": "AS",
+        "TimeZone": "JST",
+        "District": null,
+        "StreetName": "3-3-6",
+        "CityName": "鳥羽市",
+        "Building": null,
+        "Floor": null,
+        "Room": null,
+        "XCoordinate": null,
+        "YCoordinate": null,
+        "ZCoordinate": null,
+        "Site": 1
+      }
+    ],
+    "Campaign": null,
+    "Game": null,
+    "PointTransaction": null
+  },
+  "api_schema": "DPFMEventReads",
+  "accepter": [
+    "AddressesByLocalSubRegion"
+  ],
+  "deleted": false,
+  "sql_update_result": null,
+  "sql_update_error": "",
+  "subfunc_result": null,
+  "subfunc_error": "",
+  "exconf_result": null,
+  "exconf_error": "",
+  "api_processing_result": true,
+  "api_processing_error": ""
+}
